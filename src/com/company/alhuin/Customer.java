@@ -1,20 +1,20 @@
 package com.company.alhuin;
 
 public class Customer {
-    private String fullname;
+    private String fullName;
     private String address;
 
     public static void main(String[] args) {
 
     }
 
-    public void Customer(String fullname, String address) {
-        this.fullname = fullname;
+    public Customer(String fullName, String address) {
+        this.fullName = fullName;
         this.address = address;
     }
 
     public String getFullName() {
-        return fullname;
+        return fullName;
     }
 
     public String getAddress() {

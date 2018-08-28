@@ -1,10 +1,12 @@
 package com.company.alhuin;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bill {
     private Customer customer;
-    private Map<Product, Integer> products;
+    private Map<Product, Integer> products = new HashMap<Product, Integer>();
+    ;
 
 
     public static void main(String[] args) {
@@ -31,6 +33,14 @@ public class Bill {
      */
     public void addProduct(Product product, Integer quantity) {
         this.products.put(product, quantity);
+    }
+
+    /**
+     * Display the content of the bill,
+     * format : "Quantity Product" eg -> "1 café"
+     */
+    public void displayBill() {
+        products.forEach((Product, Integer) -> System.out.println(Integer + " " + Product.getName()));
     }
 }
 
