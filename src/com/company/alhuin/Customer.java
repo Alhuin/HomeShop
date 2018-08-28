@@ -8,6 +8,11 @@ public class Customer {
 
     }
 
+    public void Customer(String fullname, String address) {
+        this.fullname = fullname;
+        this.address = address;
+    }
+
     public String getFullName() {
         return fullname;
     }
