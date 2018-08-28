@@ -14,6 +14,7 @@ public class Product {
         this.description = description;
         this.price = price;
     }
+
     /**
      * Display the full description of a product
      */
