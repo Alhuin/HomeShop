@@ -7,6 +7,7 @@ public class ExpressDelivery implements Delivery {
         this.city = city;
     }
 
+    @Override
     public double getPrice() {
         if (city.equals("Paris"))
             return 6.99;

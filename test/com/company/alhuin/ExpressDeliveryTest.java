@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ExpressDeliveryTest {
+public class ExpressDeliveryTest {
     @Test
     public void Given_RegionCityAsLocation_WhenGettingDeliveryPrice_ThenGet9e99() {
         Delivery delivery = new ExpressDelivery("Bordeaux");
