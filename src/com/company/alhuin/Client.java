@@ -1,6 +1,6 @@
 package com.company.alhuin;
 
-public class Customer {
+public class Client {
     private String fullName;
     private String address;
 
@@ -8,7 +8,7 @@ public class Customer {
 
     }
 
-    public Customer(String fullName, String address) {
+    public Client(String fullName, String address) {
         this.fullName = fullName;
         this.address = address;
     }
