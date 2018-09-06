@@ -1,5 +1,7 @@
-package com.company.alhuin;
+package com.company.alhuin.HomeShop;
 
+import com.company.alhuin.HomeShop.Delivery;
+import com.company.alhuin.HomeShop.ExpressDelivery;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

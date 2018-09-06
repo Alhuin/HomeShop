@@ -1,4 +1,4 @@
-package com.company.alhuin;
+package com.company.alhuin.HomeShop;
 
 public class RelayDelivery implements Delivery {
     int nbRelay;
@@ -15,5 +15,10 @@ public class RelayDelivery implements Delivery {
             return 2.99;
         else
             return 4.99;
+    }
+
+    @Override
+    public String getInfo() {
+        return "Livraison en point relai";
     }
 }

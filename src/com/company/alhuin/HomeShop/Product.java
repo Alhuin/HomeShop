@@ -1,4 +1,4 @@
-package com.company.alhuin;
+package com.company.alhuin.HomeShop;
 
 public class Product {
     private String name;
