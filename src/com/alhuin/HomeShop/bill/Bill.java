@@ -1,4 +1,7 @@
-package com.alhuin.HomeShop;
+package com.alhuin.HomeShop.bill;
+
+import com.alhuin.HomeShop.product.Product;
+import com.alhuin.HomeShop.delivery.Delivery;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -70,6 +73,6 @@ public class Bill {
             Integer quantity = entry.getValue();
             total += product.getPrice() * quantity;
         }
-        return total;
+        return total + delivery.getPrice();
     }
 }

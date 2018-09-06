@@ -1,5 +1,15 @@
 package com.alhuin.HomeShop;
 
+import com.alhuin.HomeShop.bill.Bill;
+import com.alhuin.HomeShop.bill.Client;
+import com.alhuin.HomeShop.bill.FileWriter;
+import com.alhuin.HomeShop.bill.NoProductInBillException;
+import com.alhuin.HomeShop.delivery.Delivery;
+import com.alhuin.HomeShop.delivery.ExpressDelivery;
+import com.alhuin.HomeShop.product.Fridge;
+import com.alhuin.HomeShop.product.Product;
+import com.alhuin.HomeShop.product.Television;
+
 public class Main {
 
     public static void main(String[] args) {

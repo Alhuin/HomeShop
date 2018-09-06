@@ -1,4 +1,6 @@
-package com.alhuin.HomeShop;
+package com.alhuin.HomeShop.product;
+
+import com.alhuin.HomeShop.bill.Bill;
 
 public class Product {
     private String name;

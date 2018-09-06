@@ -1,4 +1,4 @@
-package com.alhuin.HomeShop;
+package com.alhuin.HomeShop.delivery;
 
 public interface Delivery {
 

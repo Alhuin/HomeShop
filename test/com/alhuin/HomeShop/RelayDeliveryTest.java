@@ -1,7 +1,7 @@
 package com.alhuin.HomeShop;
 
-import com.alhuin.HomeShop.Delivery;
-import com.alhuin.HomeShop.RelayDelivery;
+import com.alhuin.HomeShop.delivery.Delivery;
+import com.alhuin.HomeShop.delivery.RelayDelivery;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
