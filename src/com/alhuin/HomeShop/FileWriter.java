@@ -1,4 +1,4 @@
-package com.company.alhuin.HomeShop;
+package com.alhuin.HomeShop;
 
 import java.io.IOException;
 import java.nio.file.*;

@@ -1,4 +1,4 @@
-package com.company.alhuin.HomeShop;
+package com.alhuin.HomeShop;
 
 public class ExpressDelivery implements Delivery {
     String city;

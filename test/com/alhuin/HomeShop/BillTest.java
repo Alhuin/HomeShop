@@ -1,6 +1,6 @@
-package com.company.alhuin.HomeShop;
+package com.alhuin.HomeShop;
 
-import com.company.alhuin.HomeShop.*;
+import com.alhuin.HomeShop.*;
 import org.junit.jupiter.api.Test;
 
 

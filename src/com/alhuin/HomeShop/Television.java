@@ -1,4 +1,4 @@
-package com.company.alhuin.HomeShop;
+package com.alhuin.HomeShop;
 
 public class Television extends Product {
     private int size;
