@@ -26,7 +26,7 @@ public class FileWriter implements Writer {
     @Override
     public void stop() {
         try {
-            Files.write(path, content.getBytes());
+            Files.write(path, String.format(content).getBytes());
         } catch (IOException e) {
             System.err.println("Impossible de rédiger la facture");
         }
